@@ -16,11 +16,6 @@ header {
 }
 
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
 }
 
 header h2 {
@@ -249,5 +244,21 @@ section {
 
 .contact-info {
     text-align: center;
-    display: inline-block;
+    background: #024e76;
+    margin-bottom: 35px;
+}
+
+.contact-info h2 {
+    text-align: center;
+    color: #fce138;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    margin: 0 auto;
+}
+
+.contact-info h3 {
+    border-bottom: 3px;
+    border-color: #fce138;
 }
