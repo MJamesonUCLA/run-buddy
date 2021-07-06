@@ -248,6 +248,15 @@ section {
     margin-bottom: 35px;
 }
 
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
 .contact-info h2 {
     text-align: center;
     color: #fce138;
@@ -259,6 +268,23 @@ section {
 }
 
 .contact-info h3 {
-    border-bottom: 3px;
+    font-size: 32px;
     border-color: #fce138;
 }
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #fce138;
+}
+
