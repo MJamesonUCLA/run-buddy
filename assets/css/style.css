@@ -22,6 +22,7 @@ header h1 {
   color: #fce138;
   margin: 0;
   display: inline;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 header a {
   text-decoration: none;
@@ -41,6 +42,7 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -91,6 +93,21 @@ section {
   right: 140px;
 }
 
+.her-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .hero-form h3 {
   font-size: 24px;
   margin: 0;
